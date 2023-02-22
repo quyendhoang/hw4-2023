@@ -24,6 +24,7 @@ a.skip{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     row-gap: 30px;
+    column-gap: 0px;
   }
 
   /* Requirement 4 code here -- Do not remove this comment. */
@@ -50,7 +51,7 @@ a.skip{
 
   /* Requirement 7 code here -- Do not remove this comment. */
   .about-image, .clients-image, .method-image, .contact-image{
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 3;
     max-height: 500px;
   }
 
