@@ -39,7 +39,8 @@ a.skip{
 
   /* Requirement 5 code here -- Do not remove this comment. */
   .about,  .clients, .method, .contact{
-    grid-column-start:2
+    grid-column-start:2;
+    grid-column-end: auto;
   }
 
   /* Requirement 6 code here -- Do not remove this comment. */
