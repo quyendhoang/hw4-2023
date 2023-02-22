@@ -1,4 +1,3 @@
-
 a.skip{
   background: white;
   padding: 6px;
@@ -6,7 +5,6 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 1 code here -- Do not remove this comment. */
-
   position: absolute;
   top: -200px;
   left: -400px;
@@ -31,7 +29,7 @@ a.skip{
   /* Requirement 4 code here -- Do not remove this comment. */
  .intro{
   background-image:url("../images/header.jpg");
-  color: #858585;
+  background-color: #858585;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +49,7 @@ a.skip{
 
   /* Requirement 7 code here -- Do not remove this comment. */
   .about-image, .clients-image, .method-image, .contact-image{
-    grid-column: 1 / 4;
+    grid-column: 1 / span 4;
     max-height: 500px;
   }
 
@@ -109,7 +107,6 @@ a.skip{
     grid-template-rows: 300px 300px 300px 300px;
   }
 
-
   /* Requirement 13 code here -- Do not remove this comment. */
   .about, .method, .clients-image, .contact-image{
     grid-column: 3 / span 2;
@@ -121,9 +118,8 @@ a.skip{
 
   }
  
-
   /* Requirement 15 code here -- Do not remove this comment. */
-  img{
+  .clients-image, .contact-image, .about-image, .method-image{
     overflow: hidden;
   }
 }
