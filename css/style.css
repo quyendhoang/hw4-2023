@@ -75,8 +75,8 @@ a.skip{
 
 
   /* Requirement 9 code here -- Do not remove this comment. */
-h2, p{
-  vertical-align: middle;
+.text {
+  align-self: center;
   max-height: 40vh;
   overflow: scroll;
 }
